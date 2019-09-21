@@ -1,11 +1,33 @@
-      /* Always set the map height explicitly to define the size of the div
+    /* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+       #title {
+        position:fixed;
+        margin-top: -600px;
+        margin-left: 400px;
+        z-index:99999999999999;
+        height: 100px;
+        width:100px;
+        color:black;
+        font-size: 80px;
+        font-family: 'PT Sans';
+        
+      }
+    /* Always set the map height explicitly to define the size of the div
        * element that contains the map. */
        #map {
-        height: 100%;
+        position:fixed;
+        z-index:9999999999;
+        height: 500px;
+        width:1000px;
+        margin-top: 600px;
+        margin-right: 500px;
+        border: 8px double black;
+        
       }
       /* Optional: Makes the sample page fill the window. */
       html, body {
         height: 100%;
         margin: 0;
         padding: 0;
+        background-image: url(diamond_upholstery.png)
       }
