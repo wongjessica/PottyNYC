@@ -1,28 +1,34 @@
     /* Always set the map height explicitly to define the size of the div
        * element that contains the map. */
+
+      .nav-wrapper {
+        background-color: white;
+        color:black;
+      }
+
        #wrapper {
-        position:fixed;
+        position:absolute;
         /* margin-top: -600px;
         margin-left: 400px; */
         margin:0 auto;
         z-index:99999999999999;
         height: 100px;  
-        max-width:860px;
+        max-width:1180px;
         padding-right:10px;
         padding-left:10px;
         color:black;
-        font-size: 80px;
+        font-size: 20px;
         font-family: 'PT Sans';
         
       }
     /* Always set the map height explicitly to define the size of the div
        * element that contains the map. */
        #map {
-        position:fixed;
+        position: absolute;
         z-index:9999999999;
         height: 500px;
-        width:1000px;
-        margin-top: 600px;
+        width:1180px;
+        margin-top: 300px;
         margin-right: 500px;
         border: 8px double black;
         
