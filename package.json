@@ -1,0 +1,22 @@
+{
+  "name": "pottynyc",
+  "version": "1.0.0",
+  "description": "A web app that tells you where the nearest Public NYC Bathroom to you is",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wongjessica/PottyNYC.git"
+  },
+  "author": "Jessica Wong and Md Abedin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wongjessica/PottyNYC/issues"
+  },
+  "homepage": "https://github.com/wongjessica/PottyNYC#readme",
+  "dependencies": {
+    "materialize-css": "^1.0.0-rc.2"
+  }
+}

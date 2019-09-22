@@ -1,12 +1,15 @@
     /* Always set the map height explicitly to define the size of the div
        * element that contains the map. */
-       #title {
+       #wrapper {
         position:fixed;
-        margin-top: -600px;
-        margin-left: 400px;
+        /* margin-top: -600px;
+        margin-left: 400px; */
+        margin:0 auto;
         z-index:99999999999999;
-        height: 100px;
-        width:100px;
+        height: 100px;  
+        max-width:860px;
+        padding-right:10px;
+        padding-left:10px;
         color:black;
         font-size: 80px;
         font-family: 'PT Sans';
