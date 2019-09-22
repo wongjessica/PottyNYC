@@ -13,6 +13,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <link href="https://fonts.googleapis.com/css?family=PT+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/static/css/styles.css">
+    <script src="/static/javascript/scripts.js"></script>
     <title>Simple Map</title>
     <meta name="viewport" content="initial-scale=1.0">
     <meta charset="utf-8">
@@ -24,30 +25,33 @@
                 <img src="../static/img/pottynyclogo.png" alt="PottyNYC Logo" width="230" height="64">
             </a>
             <ul id="nav-mobile" class="right hide-on-med-and-down">
-            <li><a href="sass.html">Sass</a></li>
-            <li><a href="badges.html">Components</a></li>
-            <li><a href="collapsible.html">JavaScript</a></li>
+            <li><a class="button" href="#popup1">Creators</a></li>
+            </div>
             </ul>
         </div>
     </nav>
+
+    <div id="popup1" class="overlay">
+        <div class="popup">
+          <h2><center>Thanks for Clicking!</center></h2>
+          <a class="close" href="#">&times;</a>
+          <div class="content">
+            <center>The creators of this service are Jessica Wong and Md Abedin. <br> <a href="https://linkedin.com/in/jessicawongdev" target="_blank">Jessica Wong</a> is a computer science major at Hunter 
+            College, aspiring to become a software engineer. <a href="https://linkedin.com/in/mdabedin" target="_blank">Md Abedin</a> is a computer science major at New York University, 
+            who wants to research AI in the future.
+          </center>
+          </div>
+        </div>
+      </div>
+
     <div id="wrapper">
         <br>
         <center>Have you ever been outside and needed to go really bad and wished you could just type something like “public bathrooms near me” into Google Maps? <br>
         <b>PottyNYC</b> is a web and mobile application that allows users to find public restrooms in NYC in real time. <br>
         This application tracks the location of the user and finds the nearest bathroom to you, and gives you directions to the bathroom.
         </center>
-
       </div>
     <div id="map"></div>
-    <script>
-      var map;
-      function initMap() {
-        map = new google.maps.Map(document.getElementById('map'), {
-          center: {lat: -34.397, lng: 150.644},
-          zoom: 8
-        });
-      }
-    </script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBP9eEjf7AoCn_-B56td5cIhHs84Dojv20&callback=initMap" async defer></script>
     <script type="text/javascript" src="js/materialize.min.js"></script>
   </body>
