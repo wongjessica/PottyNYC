@@ -1,4 +1,4 @@
-[{
+var data = [{
   "name": "Brooklyn Roadting Compny",
   "category": "Coffee Shop",
   "address": "45 Washington St, Brooklyn, NY 11201, USA",
@@ -1407,4 +1407,4 @@
   "category": "Other",
   "address": "82 Washington Sq E",
   "url": "http://m3.mappler.net/dechr/class/list_data_web_fn.php?page=3&blogid=nyrestroom&is_blog_user_group_allow_yn=N&th_no_sort_class=sort_desc&th_name_sort_class=sort&page_per_record=100"
-}]
+}];
